@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <section id="ad">
+        <p>TRY NOW! Get 10% off your first order when you first sign up!</p>
+        <p id="close" onclick="closeAd()">x</p>
+    </section>
+    <nav class="navbar navbar-expand-md fixed-top" id="navbar">
+        <a class="navbar-brand" href="index.html">
+            <img class="logo" src="images/foodar-logo.png">
+        </a>
+
+        <div class="collapse navbar-collapse" id="nav-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">How It Works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="request.html">Request</a>
+                </li>
+            </ul>
+            <ul id="login">
+                <li class="nav-item">
+                    <a class="nav-link" href="">Sign In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+
+    <section id="showcase" class="grid">
+        <div class="parallax">
+            <h1>ORDER A MEAL TODAY</h1>
+        </div>
+    </section>
+
+    <!-- Section A -->
+
+    <h1 id="heading">Find A Driver Near You</h1>
+    <p>Type in the Zipcode below and click Go to find a driver near you</p>
+    <section id="section-a" class="grid">
+        <form>
+            <input type="text" placeholder="Zipcode">
+        </form>
+        <button type="submit">Go</button>
+    </section>
+    <script src="script.js"></script>
+</body>
+<footer class="grid">
+    <div class="content-wrap2">
+        <h4>Home</h4>
+        <p>How It Works</p>
+        <p>Register</p>
+        <br>
+        <p>&copy; Foodar 2018</p>
+    </div>
+    <div class="content-wrap3">
+        <h4>Privacy Policy</h4>
+        <p>Terms & Conditions</p>
+        <p>Careers</p>
+        <p>Foodar News</p>
+        <p>Investor Relations</p>
+    </div>
+    <div class="content-wrap4">
+        <h4>Food Is Life!</h4>
+    </div>
+</footer>
+
+</html>

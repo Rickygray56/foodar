@@ -1,0 +1,294 @@
+#ad {
+    display: none;
+    height: 40px;
+    background: black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    color: white;
+}
+
+#ad p {
+    margin: 0;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+#close {
+    float: right;
+    padding-right: 10px;
+}
+
+#close:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    font-family: 'Raleway', sans-serif; 
+    background: white;
+    height: 100px;
+    margin-left: 0;
+}
+
+#nav-collapse {
+    padding-right: 50px;
+    padding-top: 18px;
+}
+
+.logo {
+    float: left;
+    width: 15%; 
+    margin-top: 10px;
+    padding-left: 100px;
+    padding-bottom: 15px;
+}
+
+ul {
+    display: inline-block;
+    margin-right: 55px;
+
+}
+
+#login {
+    float: right;
+}
+
+li {
+    display: inline-block;
+    padding: 3px;
+    font-size: 20px;
+}
+
+.nav-link {
+    padding: 5px;
+    color: #666666;
+    font-weight: normal;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #B82601;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#showcase {
+    height: 700px;
+}
+
+.parallax {
+    background-image: url('images/appetizer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+#showcase h1 {
+    color: white;
+    font-size: 60px;
+    float: left;
+    margin-top: 280px;
+    margin-left: 300px;
+}
+
+#heading {
+    margin-top: 60px;
+    color: #666666;
+}
+
+p {
+    color: #666666;
+}
+
+#section-a {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#section-a input {
+    width: 96%;
+}
+
+#section-a button {
+    background: black;
+    grid-column: 2;
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#title {
+    color: black;
+    font-size: 55px;
+}
+
+#register-a {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100%;
+}
+
+#register-a form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 2/4;
+    width: 100%;
+}
+
+.content-wrap1 {
+    grid-column: 1;
+}
+
+.content-wrap2 {
+    grid-column: 2;
+}
+
+.content-wrap3 {
+    grid-column: 1;
+}
+
+.content-wrap4 {
+    grid-column: 2;
+}
+
+#register-b {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100%;
+}
+
+input {
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 90%;
+    background: #f3f3f3;
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+}
+
+#reg {
+    background: black;
+    padding: 10px;
+    color: white;
+    width: 130px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* Request Page */
+
+#request-a {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 350px;
+}
+
+#request-a input {
+    grid-column: 2/4;
+    width: 98%;
+    margin: 0;
+}
+
+#request-a p {
+    grid-column: 2/4;
+    text-align: left;
+    font-weight: bold;
+}
+
+#request-b {
+    height: 250px;
+}
+
+#request-b input {
+width: 20px;
+height: 20px;
+margin-top: 10px;
+}
+
+#request-b p {
+    font-weight: bold;
+}
+
+#style {
+    display: inline-block;
+    height: 170px;
+    width: 350px;
+    background: #f3f3f3;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+#request-c {
+    height: 250px;
+}
+
+#request-c input {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+#request-c p {
+    font-weight: bold;
+}
+
+#request-btn {
+    background: black;
+    grid-column: 2;
+    width: 25%;
+    margin-top: 10px;;
+    padding: 10px;
+    color: white;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#about-a h3 {
+    color: #666666;
+}
+
+/* Footer */
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: #2b2b2b;
+    height: 300px;
+    padding-top: 50px;
+    text-align: center;
+    color: #f7f8f9;
+    margin-top: 100px;
+}
+
+/* footer .content-wrap1 {
+    grid-column: 3;
+    padding-top: 70px;
+} */
+
+footer .content-wrap2 {
+    grid-column: 1;
+}
+
+footer .content-wrap3 {
+    grid-column: 2;
+}
+
+footer .content-wrap4 {
+    grid-column: 3;
+}
